@@ -1,7 +1,5 @@
 package footballteamnumbers;
 
-import arraylist.boats.Boat;
-
 import java.util.Comparator;
 
 public class Player {

@@ -1,7 +1,5 @@
 package phones;
 
-import arraylist.bookmanagementsystem.BookManager;
-
 import java.util.Scanner;
 
 public class TestPhoneInventory {

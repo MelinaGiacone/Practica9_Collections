@@ -1,6 +1,5 @@
 package footballteamnumbers;
 
-import arraylist.boats.Boat;
 import com.sun.source.tree.Tree;
 
 import java.util.*;

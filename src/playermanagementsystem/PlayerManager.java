@@ -31,16 +31,6 @@ public class PlayerManager {
         return false;
     }
 
-//    public boolean deletePlayerByName(String name) {
-////        for (int i = players.size; i>=0 > i--){
-////
-////        }
-//    }
-
-
-
-
-
     public Player showPlayerByName(String name) {
         for (Player player : players) {
             if (player.getName().equals(name)) {

@@ -1,8 +1,5 @@
 package footballteamnumbers;
 
-import hashmap.phones.Phone;
-import hashmap.phones.PhoneInventory;
-
 import java.util.Scanner;
 
 public class TestFootballTeam {
