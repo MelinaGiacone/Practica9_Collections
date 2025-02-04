@@ -11,7 +11,7 @@ public class Player {
         this.score = score;
     }
 
-    public static Comparator<Player> boatCompareByScore = new Comparator<Player>() {
+    public static Comparator<Player> playerCompareByScore = new Comparator<Player>() {
         public int compare(Player player1, Player player2) {
             int playerScore1 = player1.getScore();
             int playerScore2 = player2.getScore();

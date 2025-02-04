@@ -51,7 +51,7 @@ public class PlayerManager {
 
 
     public void showTheBestPlayers(int n) {
-        Collections.sort(players, Player.boatCompareByScore);
+        Collections.sort(players, Player.playerCompareByScore);
         System.out.println("The " + n + "best players are: ");
         for (int i = 0; i < n; i++) {
             System.out.println(players.get(i) + " ");
@@ -67,7 +67,7 @@ public class PlayerManager {
     }
 
     public Player highestScore() {
-        Collections.sort(players, Player.boatCompareByScore);
+        Collections.sort(players, Player.playerCompareByScore);
         return players.get(0);
     }
 
